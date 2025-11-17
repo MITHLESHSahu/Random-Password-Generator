@@ -31,7 +31,8 @@ function App() {
       navigator.clipboard.writeText(fpass)
     }
   return (
-    <>
+    <div className='root'>
+    <div className='Random'> Random Passord Generator</div>
       <div className ='passwordBox'>
         <h1>Password Generator</h1>
          
@@ -62,8 +63,9 @@ function App() {
 
           <button className='btn' onClick={createPassowrd}>Generate Password</button>
       </div>
-      </>
+      </div>
   );
 }
 
 export default App;
+
